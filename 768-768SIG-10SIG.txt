@@ -1,0 +1,30 @@
+
+input 	->    	hidden 		->   		output
+768				768						10
+				(sigmoid)				(sigmoid)
+
+2018-03-19 08:43:53.482795: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/10
+ - 8s - loss: 0.4770 - acc: 0.8724 - val_loss: 0.2773 - val_acc: 0.9194
+Epoch 2/10
+ - 8s - loss: 0.2574 - acc: 0.9260 - val_loss: 0.2202 - val_acc: 0.9360
+Epoch 3/10
+ - 8s - loss: 0.2083 - acc: 0.9395 - val_loss: 0.1900 - val_acc: 0.9430
+Epoch 4/10
+ - 8s - loss: 0.1704 - acc: 0.9511 - val_loss: 0.1585 - val_acc: 0.9555
+Epoch 5/10
+ - 8s - loss: 0.1434 - acc: 0.9592 - val_loss: 0.1364 - val_acc: 0.9589
+Epoch 6/10
+ - 8s - loss: 0.1210 - acc: 0.9655 - val_loss: 0.1254 - val_acc: 0.9616
+Epoch 7/10
+ - 8s - loss: 0.1039 - acc: 0.9699 - val_loss: 0.1129 - val_acc: 0.9667
+Epoch 8/10
+ - 8s - loss: 0.0892 - acc: 0.9741 - val_loss: 0.1010 - val_acc: 0.9699
+Epoch 9/10
+ - 8s - loss: 0.0768 - acc: 0.9783 - val_loss: 0.0912 - val_acc: 0.9720
+Epoch 10/10
+ - 8s - loss: 0.0667 - acc: 0.9808 - val_loss: 0.0894 - val_acc: 0.9726
+Using TensorFlow backend.
+[0.089378401311673225, 0.97260000000000002]
+Baseline Error: 2.74%
