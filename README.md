@@ -13,3 +13,6 @@ We can increase or reduce number of hidden layers with different activation such
 
 ## Conclusion:-
 We have tired all the combination of activation function and we found that our accuracy is around 98% and Relu-Softmax combination  has given the min error rate.
+
+
+![Result](/result.png?raw=true "Result")
