@@ -9,7 +9,7 @@ We have converted the 28*28 pixel into 2d vector and forwarded the 2d vector to 
 
 Visible Layer (784 Inputs) >> Hidden Layer (784 Neurons) >> Output Layer (10 Outputs).
 
-We can increase or reduce number of hidden layers with different activation such as Relu, Sigmoid and Softmax. We have used model.fit() python liberary to train the data and model.evaluate() for the evalution.
+We can increase or reduce number of hidden layers with different activation such as Relu, Sigmoid and Softmax. We have used model.fit() python library to train the data and model.evaluate() for the evaluation.
 
 ## Conclusion:-
 We have tired all the combination of activation function and we found that our accuracy is around 98% and Relu-Softmax combination  has given the min error rate.
